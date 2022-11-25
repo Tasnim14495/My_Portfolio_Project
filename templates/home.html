@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% load static %}
+{% block body%}
+<div class="container">
+    <img src="{% static 'images/img1.jpg' %}" class="rounded mx-auto d-block w-25 p-3" height="300" wdith="550">
+    <h1 class="text-center">Tasnim Islam Tithi</h1>
+    <p>I am studying the renowed Daffodil International University,the respected department of CSE.I love programming.I am very interested in learning new things.I also love traveling, sleeping</p>
+</div>
+<div class="card">
+    <h5>Work Experience</h5>
+    <div class="card-body">
+      <h5 class="card-title">Daffodil International University</h5>
+      <p class="card-text">January -1 to December-31</p>
+      <p class="card-text">Student</p>
+      <ul class="list-group">
+        <li class="list-group-item">Volunteer</li>
+        <li class="list-group-item">MS,Powerpoint</li>
+        <li class="list-group-item">Photography</li>
+      </ul>
+    </div>
+
+    <div class="container mt-5">
+      <div class="card">
+          <div class="card-header">
+              <h1 class="text-center">Skills</h1>
+          </div> 
+          <div class="card-body">
+              <div class="row">
+                  <div class="col">
+                      <h5>Language</h5>
+                  <ul>
+                      <li>C</li>
+                      <li>Java</li>
+                      <li>Python</li>
+                  </ul>
+                  </div>
+              
+                  <div class="col">
+                      <h5>Frontend</h5>       
+                  <ul>
+                      <li>Html</li>
+                      <li>CSS</li>
+                      <li>Bootstrap</li>
+                               
+                  </ul>
+                  </div>
+                  <div class="col">
+                      <h5>Backend</h5>
+                      <ul>
+                      <li>Django</li>
+                                 
+                      </ul>
+                  </div>
+              </div>
+
+          </div>       
+      </div>      
+  </div>
+{% endblock %}
